@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
  */
 public class RetryAnnotationListener implements IAnnotationTransformer {
 
-    public static final Logger logger = LoggerFactory.getLogger(RetryAnnotationListener.class);
+    private static final Logger logger = LoggerFactory.getLogger(RetryAnnotationListener.class);
 
     @Override
     public void transform(ITestAnnotation iTestAnnotation, Class aClass, Constructor constructor, Method method) {

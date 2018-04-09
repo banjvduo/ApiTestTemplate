@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="ExampleTest">
+        <classes>
+            <class name="com.banjvduo.apitest.test.ExampleTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>-->
+        <listener class-name="com.banjvduo.apitest.listener.ResultListener"/>
+        <listener class-name="com.banjvduo.apitest.listener.RetryAnnotationListener"/>
+    </listeners>
+</suite>

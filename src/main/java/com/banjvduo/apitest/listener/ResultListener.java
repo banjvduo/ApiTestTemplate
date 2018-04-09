@@ -24,7 +24,7 @@ import java.util.Set;
  */
 public class ResultListener implements ITestListener {
 
-    public static final Logger logger = LoggerFactory.getLogger(ResultListener.class);
+    private static final Logger logger = LoggerFactory.getLogger(ResultListener.class);
 
     @Override
     public void onTestStart(ITestResult iTestResult) {

@@ -1,0 +1,8 @@
+/target/
+.settings
+.project
+.classpath
+.idea
+*.iml
+test-output
+.externalToolBuilders
